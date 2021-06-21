@@ -2,7 +2,7 @@ const nombre = prompt("Ingrese su nombre");
 const edad = prompt("Ingrese su edad");
 const nacimiento = prompt("Ingrese su año de nacimiento");
 
-if (edad > 18) {
+if (edad >= 18) {
     console.log(nombre + " eres mayor de edad");
 } else {
     console.log(nombre + " eres menor de edad");
